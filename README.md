@@ -31,24 +31,19 @@ This system tracks and estimates speed for the following YOLOv8 classes:
 
 ## 🖥 GUI Overview
 
-![GUI Screenshot Placeholder](#) *(Insert a screenshot here)*
+![GUI Screenshot Placeholder](screenshots/GUI.png)
 
 1. **Select Video**: Opens file dialog to choose a video file.
 2. **ROI Selection**: Uses OpenCV to select the region of interest.
 3. **Start Processing**: Launches the detection and tracking window.
 
 ---
-Here’s an additional section you can include in your README to showcase the screenshots for ROI selection and the application in action:
-
----
-
-## 🖼 Screenshots
 
 ### 🎯 ROI Selection Interface
 
 This window appears when the user selects a video and is prompted to define the Region of Interest (ROI). The ROI helps focus the detection and tracking on a specific part of the frame.
 
-![ROI Selection Screenshot](screenshots/roi_selection.png)
+![ROI Selection Screenshot](screenshots/ROI.png)
 *Draw a rectangle around the desired region to track vehicles/pedestrians.*
 
 ---
@@ -57,7 +52,7 @@ This window appears when the user selects a video and is prompted to define the 
 
 This is the main output window showing the detected objects, assigned IDs, speed estimations (in km/h), and class labels within the ROI.
 
-![Detection and Tracking Screenshot](screenshots/detection_tracking.png)
+![Detection and Tracking Screenshot](screenshots/YOLO.png)
 *Vehicles and pedestrians are tracked with real-time speed estimates and object IDs.*
 
 ## ⚙️ Installation
