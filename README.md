@@ -43,7 +43,7 @@ This system tracks and estimates speed for the following YOLOv8 classes:
 
 ### 🔧 Requirements
 
-- Python 3.8+
+- Python 3.10.11
 - CUDA-enabled GPU recommended (for real-time performance)
 
 ### 📦 Dependencies
@@ -51,4 +51,16 @@ This system tracks and estimates speed for the following YOLOv8 classes:
 Install dependencies via pip:
 
 ```bash
-pip install ultralytics opencv-python numpy torch tkinter
+pip install ultralytics==8.3.116
+opencv-python==4.10.0.84
+deep-sort-realtime==1.3.2
+numpy==1.25.2
+torch==2.5.1+cu118
+torchvision==0.20.1+cu118
+torchaudio==2.5.1+cu118
+matplotlib==3.10.0
+seaborn==0.13.2
+tqdm==4.67.1
+pandas==2.2.3
+scipy==1.9.3
+
